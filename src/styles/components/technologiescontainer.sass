@@ -7,6 +7,7 @@
         display: flex
         flex-wrap: wrap
         gap: 0.3rem
+        justify-content: space-around
 
         .technology-card
             @include mixins.center
@@ -14,8 +15,8 @@
             gap: 1rem
             padding: 1rem
             border: 1px solid #333
-            width: 33%
             border-radius: variables.$card-border-radius
+            min-width: 32%
 
             h3
                 color: variables.$text-color
@@ -29,9 +30,6 @@
         #css
             svg
                 color: #1572b6
-        #javascript
-            svg
-                color: #f0db4f
         #mysql
             svg
                 color: #00618a
@@ -50,15 +48,9 @@
         #git
             svg
                 color: #E44D30
-        #mongodb
-            svg
-                color: #4BA13E
         #python
             svg
                 color: #326C9B
-        #scrum
-            svg
-                color: #0266B1
         #cpp
             svg
                 color: #01559D
@@ -72,9 +64,6 @@
             svg
                 color: variables.$bg-color
         #css:hover
-            svg
-                color: variables.$bg-color
-        #javascript:hover
             svg
                 color: variables.$bg-color
         #mysql:hover
@@ -95,13 +84,7 @@
         #git:hover
             svg
                 color: variables.$bg-color
-        #mongodb:hover
-            svg
-                color: variables.$bg-color
         #python:hover
-            svg
-                color: variables.$bg-color
-        #scrum:hover
             svg
                 color: variables.$bg-color
         #cpp:hover
@@ -111,9 +94,6 @@
             svg
                 color: variables.$bg-color
         #quarkus:hover
-            svg
-                color: variables.$bg-color 
-        #linux:hover
             svg
                 color: variables.$bg-color 
         .technology-card:hover

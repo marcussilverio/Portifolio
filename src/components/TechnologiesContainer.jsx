@@ -4,12 +4,8 @@ import {
   DiJava,
   DiAngularSimple,
   DiPostgresql,
-  DiMongodb,
   DiPython,
   DiMysql,
-  DiScrum,
-  DiJavascript1,
-  DiLinux,
   DiGit
 } from 'react-icons/di'
 import {
@@ -19,25 +15,22 @@ import {
   SiQuarkus
 } from 'react-icons/si'
 
-import { FcLinux } from 'react-icons/fc'
 import '../styles/components/technologiescontainer.sass'
 
 const technologies = [
   {id:"java", name:"Java", icon: <DiJava/>},
-  {id:"quarkus", name:"Quarkus", icon: <SiQuarkus/>},
-  {id:"html", name:"HTML5", icon: <DiHtml5/>},
-  {id:"angular", name:"Angular", icon: <DiAngularSimple/>},
   {id:"typescript", name:"Typescript", icon: <SiTypescript/>},
+  {id:"quarkus", name:"Quarkus", icon: <SiQuarkus/>},
+  {id:"angular", name:"Angular", icon: <DiAngularSimple/>},
+  {id:"html", name:"HTML5", icon: <DiHtml5/>},
   {id:"css", name:"CSS3", icon: <DiCss3/>},
   {id:"mysql", name:"MySQL", icon: <DiMysql/>},
   {id:"postgres", name:"Postgres", icon: <DiPostgresql/>},
-  {id:"mongodb", name:"MongoDB", icon: <DiMongodb/>},
   {id:"c", name:"C", icon: <SiC/>},
   {id:"cpp", name:"C++", icon: <SiCplusplus/>},
   {id:"python", name:"Python", icon: <DiPython/>},
   {id:"git", name:"Git", icon: <DiGit/>},
-  {id:"scrum", name:"Scrum", icon: <DiScrum/>},
-  {id:"linux", name:"Linux", icon: <DiLinux/>},
+ 
 
 ]
 const TechnologiesContainer = () => {
