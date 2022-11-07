@@ -22,7 +22,7 @@ const InformationContainer = () => {
         <div className="info-card">
             <AiFillEnvironment id="pin-icon"/>
             <div>
-                <h3>Localixação</h3>
+                <h3>Localização</h3>
                 <p>Toledo-PR</p>
             </div>
         </div>
